@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CSharpEgitimKampi301.DataAccsessLayer.Entityframework
 {
-    public class EfCustomerDal: GenericRepository< sıla>, ICustomerDal
+    public class EfCustomerDal: GenericRepository< Customer>, ICustomerDal
     {
     }
 }
